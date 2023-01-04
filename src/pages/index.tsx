@@ -1,5 +1,5 @@
 import type { Component } from 'solid-js'
-
+import styles from './App.module.css';
 const App: Component = () => {
   return (
     <p className="text-4xl text-green-700 text-center py-20">
@@ -11,7 +11,6 @@ const App: Component = () => {
       >
         Atomic CSS
       </a>
-
     </p>
   )
 }
