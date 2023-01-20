@@ -5,7 +5,7 @@ importers:
   .:
     specifiers:
       '@antfu/eslint-config': ^0.34.0
-      '@solidjs/router': ^0.6.0
+      '@solidjs/router': ^0.7.0
       '@unocss/preset-mini': ^0.48.0
       '@unocss/vite': ^0.48.0
       bumpp: ^8.2.1
@@ -22,7 +22,7 @@ importers:
       solid-js: 1.6.6
     devDependencies:
       '@antfu/eslint-config': 0.34.0_iukboom6ndih5an6iafl45j2fe
-      '@solidjs/router': 0.6.0_solid-js@1.6.6
+      '@solidjs/router': 0.7.0_solid-js@1.6.6
       '@unocss/preset-mini': 0.48.0
       '@unocss/vite': 0.48.0_vite@4.0.4
       bumpp: 8.2.1
@@ -805,8 +805,8 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@solidjs/router/0.6.0_solid-js@1.6.6:
-    resolution: {integrity: sha512-7ug2fzXXhvvDBL4CQyMvMM9o3dgBE6PoRh38T8UTmMnYz4rcCfROqSZc9yq+YEC96qWt5OvJgZ1Uj/4EAQXlfA==}
+  /@solidjs/router/0.7.0_solid-js@1.6.6:
+    resolution: {integrity: sha512-8HI84twe5FjYRebSLMAhtkL9bRuTDIlxJK56kjfjU9WKGoUCTaWpCnkuj8Hqde1bWZ0X+GOZxKDfNkn1CjtjxA==}
     peerDependencies:
       solid-js: ^1.5.3
     dependencies:
