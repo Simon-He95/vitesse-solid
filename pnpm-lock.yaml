@@ -6,7 +6,7 @@ importers:
     specifiers:
       '@antfu/eslint-config': ^0.34.0
       '@solidjs/router': ^0.7.0
-      '@unocss/preset-mini': ^0.48.0
+      '@unocss/preset-mini': ^0.50.0
       '@unocss/vite': ^0.48.0
       bumpp: ^8.2.1
       eslint: ^8.20.0
@@ -23,7 +23,7 @@ importers:
     devDependencies:
       '@antfu/eslint-config': 0.34.0_iukboom6ndih5an6iafl45j2fe
       '@solidjs/router': 0.7.0_solid-js@1.6.6
-      '@unocss/preset-mini': 0.48.0
+      '@unocss/preset-mini': 0.50.0
       '@unocss/vite': 0.48.0_vite@4.0.4
       bumpp: 8.2.1
       eslint: 8.31.0
@@ -1017,6 +1017,10 @@ packages:
     resolution: {integrity: sha512-WvAvChbJ65l97mHismyApeFVgNeGR4uSZl1BzVY+E/fRmyooE4QxiCm3g2akox6mQryzxvBvgSpP9aPzH676ZQ==}
     dev: true
 
+  /@unocss/core/0.50.0:
+    resolution: {integrity: sha512-00fKDkb+PnIuvfoRAuqDRUAeHjO8a2h/qiMRTlyAuEP3/K+WhdV7edXj6+40KTwoadFlpwtZUskrEVymrbSYdw==}
+    dev: true
+
   /@unocss/inspector/0.48.0:
     resolution: {integrity: sha512-Yr/O8oWmm5wfbnKJQF8IMH7GMmQEKcuunzI5KaZLK0QgS/5viPS+rcTOSwowYKRkXx5HUS+ClkA3+FMzoS9eYQ==}
     dependencies:
@@ -1044,6 +1048,12 @@ packages:
     resolution: {integrity: sha512-u1EWnmLt25SmCC201+9MqLn1qFYw0aRFH+3clHn9xkrLxXMdb5hnCNssTHItalvht+mskHrfxpQmKUBtxpls+g==}
     dependencies:
       '@unocss/core': 0.48.0
+    dev: true
+
+  /@unocss/preset-mini/0.50.0:
+    resolution: {integrity: sha512-jzfb6tLHD4ppuAjoTHc2S1ZAWy4U3KpHhGbmberp09KUeesbkKaOEgEoCbc46aAWKo/q9md0V+ahvqpkdWEG7w==}
+    dependencies:
+      '@unocss/core': 0.50.0
     dev: true
 
   /@unocss/preset-tagify/0.48.0:
