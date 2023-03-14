@@ -2,7 +2,7 @@
   "name": "vitesse",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@7.22.0",
+  "packageManager": "pnpm@7.29.1",
   "description": "",
   "license": "MIT",
   "repository": {
