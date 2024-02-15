@@ -1,39 +1,38 @@
 lockfileVersion: 5.4
 
-importers:
+specifiers:
+  '@antfu/eslint-config': ^0.34.0
+  '@solidjs/router': ^0.7.0
+  '@unocss/preset-mini': ^0.48.0
+  '@unocss/vite': ^0.48.0
+  bumpp: ^8.2.1
+  eslint: ^8.20.0
+  lint-staged: ^13.1.0
+  prettier: ^2.8.1
+  simple-git-hooks: ^2.8.1
+  solid-js: ^1.6.6
+  typescript: ^4.9.4
+  unocss: ^0.48.0
+  vite: ^4.0.3
+  vite-plugin-solid: ^2.5.0
 
-  .:
-    specifiers:
-      '@antfu/eslint-config': ^0.34.0
-      '@solidjs/router': ^0.7.0
-      '@unocss/preset-mini': ^0.48.0
-      '@unocss/vite': ^0.48.0
-      bumpp: ^8.2.1
-      eslint: ^8.20.0
-      lint-staged: ^13.1.0
-      prettier: ^2.8.1
-      simple-git-hooks: ^2.8.1
-      solid-js: ^1.6.6
-      typescript: ^4.9.4
-      unocss: ^0.48.0
-      vite: ^4.0.3
-      vite-plugin-solid: ^2.5.0
-    dependencies:
-      solid-js: 1.6.6
-    devDependencies:
-      '@antfu/eslint-config': 0.34.0_iukboom6ndih5an6iafl45j2fe
-      '@solidjs/router': 0.7.0_solid-js@1.6.6
-      '@unocss/preset-mini': 0.48.0
-      '@unocss/vite': 0.48.0_vite@4.0.4
-      bumpp: 8.2.1
-      eslint: 8.31.0
-      lint-staged: 13.1.0
-      prettier: 2.8.1
-      simple-git-hooks: 2.8.1
-      typescript: 4.9.4
-      unocss: 0.48.0_vite@4.0.4
-      vite: 4.0.4
-      vite-plugin-solid: 2.5.0_solid-js@1.6.6+vite@4.0.4
+dependencies:
+  solid-js: 1.6.6
+
+devDependencies:
+  '@antfu/eslint-config': 0.34.0_iukboom6ndih5an6iafl45j2fe
+  '@solidjs/router': 0.7.0_solid-js@1.6.6
+  '@unocss/preset-mini': 0.48.0
+  '@unocss/vite': 0.48.0_vite@4.0.4
+  bumpp: 8.2.1
+  eslint: 8.31.0
+  lint-staged: 13.1.0
+  prettier: 2.8.1
+  simple-git-hooks: 2.8.1
+  typescript: 4.9.4
+  unocss: 0.48.0_vite@4.0.4
+  vite: 4.0.4
+  vite-plugin-solid: 2.5.0_solid-js@1.6.6+vite@4.0.4
 
 packages:
 
